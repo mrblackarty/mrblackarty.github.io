@@ -144,7 +144,7 @@ select {
 
 .stranici {
   display: flex;
-  height: 55px;
+  height: 80px;
   gap: 25px;
   align-items: center;
   flex-direction: row;
