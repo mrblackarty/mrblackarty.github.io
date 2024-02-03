@@ -127,17 +127,19 @@ select {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 75px;
+  height: 100px;
 }
 
 .nav-logo {
-  max-width: 14%;
+  max-width: 22%;
+ min-width: 22%;
 }
 
 .nav-cabinet {
   display: flex;
   align-items: end;
-  max-width: 17%;
+  max-width: 25%;
+  min-width: 25%;
 }
 
 .stranici {
@@ -158,7 +160,7 @@ select {
   border: 1px black;
   padding: auto;
   margin: auto;
-  font-size: 1.1em;
+  font-size: 1.7em;
 }
 
 [class ^="tabs"] > a {
