@@ -63,8 +63,17 @@
   border-radius: var(--border-radius);
   overflow: hidden;
   opacity: 90;
+  margin-right: 10px;
+}
+
+.stores-card-pic2 {
+  width: 100%;
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  opacity: 0;
   margin-left: 10px;
 }
+
 .stores-card-pic img {
   transition: 0.3s;
   width: 100%;
