@@ -148,8 +148,10 @@ select {
   gap: 25px;
   align-items: center;
   flex-direction: row;
-  flex-wrap: no-wrap;
-  background: url(http://www.medicall.com.tr/resources/files/big-category.jpg) no-repeat;
+  flex-wrap: nowrap;
+  background: url(PHOTOS/panelka.jpg);
+  background-color: rgba(129, 172, 211, 0.843);
+  background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   margin-bottom: 30px;
