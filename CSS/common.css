@@ -150,7 +150,7 @@ select {
   flex-direction: row;
   flex-wrap: nowrap;
   background: url(PHOTOS/panelka.jpg);
-  background-color: rgba(129, 172, 211, 0.843);
+  background-color: rgb(177, 217, 254);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
