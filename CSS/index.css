@@ -1,6 +1,6 @@
 .hero {
   height: 364px;
-  background: url(https://cdn.forbes.ru/files/forbes_import/26/26980d2587e44f6b7afe9988f6422575.jpg) no-repeat;
+  background: url('virus.jpg') no-repeat;
   background-size: cover;
   background-position: center;
   padding-top: 80px;
@@ -30,7 +30,7 @@
 }
 .stores-cards {
   display: grid;  
-  grid-template-columns: 600px auto;
+  grid-template-columns: auto;
   grid-template-rows: auto;
   column-gap: 35px;
   row-gap: 40px;
@@ -85,4 +85,38 @@
 
 i {
   font-size: 1.05em;
+}
+
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.stores-cards {
+  width: 80%; /* Ширина контейнера */
+  margin: 0 auto; /* Центрирование контейнера */
+}
+
+/* Медиа-запрос для маленьких устройств, например, мобильных телефонов */
+@media screen and (max-width: 600px) {
+  .stores-cards {
+      width: 100%; /* Ширина контейнера на узких экранах */
+  }
+}
+
+/* Медиа-запрос для средних устройств, например, планшетов */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .stores-cards {
+      width: 90%; /* Ширина контейнера на средних экранах */
+  }
+}
+
+/* Медиа-запрос для больших устройств, например, настольных компьютеров */
+@media screen and (min-width: 1025px) {
+  .stores-cards {
+      width: 80%; /* Ширина контейнера на больших экранах */
+  }
 }

@@ -144,7 +144,7 @@ select {
 
 .stranici {
   display: flex;
-  height: 80px;
+  height: 55px;
   gap: 25px;
   align-items: center;
   flex-direction: row;
@@ -157,6 +157,20 @@ select {
   margin-bottom: 30px;
 }
 
+.stranici0 {
+  display: flex;
+  height: 55px;
+  gap: 25px;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background: url(virus0.jpg);
+  background-color: rgba(129, 172, 211, 0.843);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 10px;
+}
 [class ^="tabs"] {
   background-color: none;
   border: 1px black;
@@ -216,4 +230,38 @@ hr {
 
 .footer a:active {
   color: var(--color-main);
+}
+
+/* Общие стили */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.stores-cards {
+  width: 80%; /* Ширина контейнера */
+  margin: 0 auto; /* Центрирование контейнера */
+}
+
+/* Медиа-запрос для маленьких устройств, например, мобильных телефонов */
+@media screen and (max-width: 600px) {
+  .stores-cards {
+      width: 100%; /* Ширина контейнера на узких экранах */
+  }
+}
+
+/* Медиа-запрос для средних устройств, например, планшетов */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .stores-cards {
+      width: 90%; /* Ширина контейнера на средних экранах */
+  }
+}
+
+/* Медиа-запрос для больших устройств, например, настольных компьютеров */
+@media screen and (min-width: 1025px) {
+  .stores-cards {
+      width: 80%; /* Ширина контейнера на больших экранах */
+  }
 }
