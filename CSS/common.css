@@ -127,19 +127,19 @@ select {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 90px;
 }
 
 .nav-logo {
-  max-width: 22%;
- min-width: 22%;
+  max-width: 26%;
+ min-width: 26%;
 }
 
 .nav-cabinet {
   display: flex;
   align-items: end;
-  max-width: 25%;
-  min-width: 25%;
+  max-width: 22%;
+  min-width: 22%;
 }
 
 .stranici {
